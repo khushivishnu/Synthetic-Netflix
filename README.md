@@ -1,1 +1,2 @@
 # Synthetic-Netflix
+It is a simple video streaming platform built using HTML and basic scripting. The project replicates essential Netflix features like user authentication, content browsing, and recommendations, all handled with simple scripting techniques. Developed using VSCode, this project was an excellent learning experience, providing hands-on practice with web development concepts and functionalities.
