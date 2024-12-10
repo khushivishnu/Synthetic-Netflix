@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="w-[100%] h-[100vh] bg-[url('images/Netflix_.jpeg')] bg-center bg-cover">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] items-center">
+                    <figure>
+                        <img src="images/netflix_logo.jpg" class="w-[128px]" alt="Netflix Logo">
+                    </figure>
+                    <div class="flex justify-end gap-[10px]">
+                        <div class="relative">
+                            <select name="" id="" class="bg-[black] text-white border-[1px] border-[white] p-[7px_20px] rounded-[5px]">
+                                <option value="">English</option>
+                                <option value="">Kannada</option>
+                            </select>
+                        </div>
+                        <button class="bg-[red] px-[15px] rounded-[5px] text-white hover:bg-[rgb(193,17,25)] duration-300">
+                            Sign In
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center text-white">
+                <h1 class="sm:text-[45px] text-[30px] font-bold">Unlimited movies, TV shows, and more</h1>
+                <h4 class="text-[25px] py-[20px]">Watch anywhere. Cancel anytime.</h4>
+                <p class="text-[25px]">Ready to watch? Enter your email to restart your membership.</p>
+                <div class="max-w-[700px] mx-auto mt-[30px]">
+                    <form action="" class="grid gap-[20px] sm:grid-cols-[70%_auto]">
+                        <input type="text" class="border-[1px] h-[50px] pl-[20px] border-[#ccc] bg-[transparent]" placeholder="Email Address">
+                        <button class="bg-[red] px-[5px] rounded-[10px] text-white hover:bg-[rgb(193,17,25)] duration-300">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enjoy on TV Section -->
+    <section class="w-[100%] bg-[black] border-t-[8px] border-[#605d5d] sm:py-[100px] py-[50px] text-white">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div>
+                    <h2 class="text-[50px] font-bold">Enjoy on your TV</h2>
+                    <p class="text-[25px] pt-[30px]">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, and more.</p>
+                </div>
+                <figure class="relative flex justify-center">
+                    <div class="border-[5px] border-[#ccc] rounded-[10px] overflow-hidden">
+                        <video class="w-full h-auto" autoplay muted loop>
+                            <source src="images/4010131-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Korean Drama Section -->
+
+<section class="w-full bg-black border-t-[8px] border-t-[#605d5d] sm:py-[70px] py-[50px] text-white">
+    <div class="max-w-[1170px] mx-auto px-[15px] relative">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center gap-[10px]">
+            <!-- Heading and Paragraph Positioned to the Right -->
+            <div class="absolute right-0 top-0 sm:w-[50%] w-[80%]">
+                <h2 class="sm:text-[50px] text-[40px] font-bold sm:leading-[65px] text-right">Download your shows to watch offline</h2>
+                <p class="sm:text-[22px] text-[20px] pt-[30px] text-right">Save your favourites easily and always have something to watch.</p>
+            </div>
+
+            <!-- Image Section: Korean Drama -->
+            <figure class="relative sm:order-1 order-2">
+                <img src="images/Netflix-Korean-drama-Queen-of-Tears-1.jpg" alt="Queen of Tears" class="w-full rounded-[10px]">
+                
+                <!-- Content Section for Drama Details -->
+                <div class="sm:w-[60%] w-[80%] absolute sm:left-[20%] left-[10%] bottom-[20px] grid grid-cols-[70%_auto] bg-black bg-opacity-70 p-[15px] rounded-[10px] border-[1px] border-[#ccc]">
+                    <div class="grid grid-cols-[40%_auto] gap-[10px]">
+                        <img src="images/images.png" class="m-[20px]" alt="Drama Thumbnail">
+                        <div class="text-white">
+                            <h3 class="font-bold text-[16px]">Queen of Tears</h3>
+                            <span class="text-[blue]">Downloading...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smaller Download Icon Section -->
+                <div class="absolute bottom-[10px] right-[10px]">
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisitions/ourStory/fuji/desktop/download-icon.gif" alt="" class="w-[30px] h-[30px]">
+                </div>
+            </figure>
+
+        </div>
+    </div>
+</section>
+
+<!--Watch everywhere!-->
+<section class="w-[100%] bg-[black] border-t-[8px] border-[#605d5d] sm:py-[100px] py-[50px] text-white">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+        <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+            <div>
+                <h2 class="text-[50px] font-bold">Watch Everywhere</h2>
+                <p class="text-[25px] pt-[30px]">Stream unlimited movies and TV shows on your phone,tablet,laptop and TV.</p>
+            </div>
+            <figure class="relative flex justify-center">
+                <div class="border-[5px] border-[red] rounded-[10px] overflow-hidden">
+                    <video class="w-full h-auto" autoplay muted loop>
+                        <source src="images/5082597-uhd_4096_2160_25fps.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!--frequent questions !-->
+<section class="w-full bg-[#141414] py-[70px]">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+        <!-- Title -->
+        <div class="text-center text-white">
+            <h2 class="text-[40px] font-bold sm:text-[50px] mb-[20px]">Frequently Asked Questions</h2>
+            <p class="text-[18px] sm:text-[22px] text-[#b3b3b3]">Find answers to common queries about your Netflix experience</p>
+        </div>
+        
+        <!-- FAQ Section with Grey Border -->
+        <div class="space-y-6 border-t-[4px] border-t-[#999999] pt-[30px]">
+            <!-- Question 1 -->
+            <div class="bg-[#333333] rounded-[10px] overflow-hidden border-[1px] border-[#999999]">
+                <button class="w-full text-left p-[20px] bg-[#333333] text-white text-[20px] font-semibold hover:bg-[#444444] transition-all duration-300 focus:outline-none" onclick="toggleAnswer(1)">
+                    What is Netflix and how do I access it?
+                    <span class="float-right text-[18px] text-[#999]">&#x25BC;</span>
+                </button>
+                <div id="answer-1" class="hidden bg-[#222222] text-white p-[20px] text-[16px]">
+                    Netflix is a streaming service offering a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can access Netflix through your browser or via their app on smart TVs, phones, tablets, and more.
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="bg-[#333333] rounded-[10px] overflow-hidden border-[1px] border-[#999999]">
+                <button class="w-full text-left p-[20px] bg-[#333333] text-white text-[20px] font-semibold hover:bg-[#444444] transition-all duration-300 focus:outline-none" onclick="toggleAnswer(2)">
+                    How much does Netflix cost?
+                    <span class="float-right text-[18px] text-[#999]">&#x25BC;</span>
+                </button>
+                <div id="answer-2" class="hidden bg-[#222222] text-white p-[20px] text-[16px]">
+                    Netflix offers several subscription plans, starting with a basic plan and going up to a premium one. Prices vary by region and plan type, but the general cost ranges from $8.99 to $17.99/month in the U.S.
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="bg-[#333333] rounded-[10px] overflow-hidden border-[1px] border-[#999999]">
+                <button class="w-full text-left p-[20px] bg-[#333333] text-white text-[20px] font-semibold hover:bg-[#444444] transition-all duration-300 focus:outline-none" onclick="toggleAnswer(3)">
+                    Can I download Netflix shows to watch offline?
+                    <span class="float-right text-[18px] text-[#999]">&#x25BC;</span>
+                </button>
+                <div id="answer-3" class="hidden bg-[#222222] text-white p-[20px] text-[16px]">
+                    Yes, you can download many of the titles available on Netflix to watch offline, making it easy to enjoy your favorite content when you’re not connected to the internet.
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="bg-[#333333] rounded-[10px] overflow-hidden border-[1px] border-[#999999]">
+                <button class="w-full text-left p-[20px] bg-[#333333] text-white text-[20px] font-semibold hover:bg-[#444444] transition-all duration-300 focus:outline-none" onclick="toggleAnswer(4)">
+                    How do I cancel my Netflix subscription?
+                    <span class="float-right text-[18px] text-[#999]">&#x25BC;</span>
+                </button>
+                <div id="answer-4" class="hidden bg-[#222222] text-white p-[20px] text-[16px]">
+                    You can cancel your Netflix subscription at any time by visiting the account settings page. Simply follow the instructions to cancel, and you won’t be billed for the next month.
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="bg-[#333333] rounded-[10px] overflow-hidden border-[1px] border-[#999999]">
+                <button class="w-full text-left p-[20px] bg-[#333333] text-white text-[20px] font-semibold hover:bg-[#444444] transition-all duration-300 focus:outline-none" onclick="toggleAnswer(5)">
+                    Can I share my Netflix account with friends or family?
+                    <span class="float-right text-[18px] text-[#999]">&#x25BC;</span>
+                </button>
+                <div id="answer-5" class="hidden bg-[#222222] text-white p-[20px] text-[16px]">
+                    Yes, Netflix allows you to share your account with family members, but the number of devices you can stream on depends on your subscription plan. The premium plan allows for up to 4 streams simultaneously.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answer = document.getElementById(`answer-${questionNumber}`);
+        const icon = document.querySelector(`#answer-${questionNumber} ~ button span`);
+
+        if (answer.classList.contains('hidden')) {
+            answer.classList.remove('hidden');
+            icon.innerHTML = '&#x25B2;';  // Change to up arrow
+        } else {
+            answer.classList.add('hidden');
+            icon.innerHTML = '&#x25BC;';  // Change to down arrow
+        }
+    }
+</script>
+<!--FOOTER SCETION!-->
+
+<section class="w-full bg-black py-[50px] text-white">
+    <div class="max-w-[1170px] mx-auto px-[15px]">
+        <div class="grid sm:grid-cols-3 grid-cols-1 gap-[30px]">
+            
+            <!-- About Section -->
+            <div>
+                <h3 class="font-bold text-[18px] mb-[15px]">About</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">About Netflix</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Careers</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Press</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Terms of Use</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Privacy</a></li>
+                </ul>
+            </div>
+
+            <!-- Support Section -->
+            <div>
+                <h3 class="font-bold text-[18px] mb-[15px]">Help & Support</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Help Center</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Account</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">Contact Us</a></li>
+                    <li><a href="#" class="hover:text-[#f1f1f1] transition-all">FAQ</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media & Contact Section -->
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="mt-[30px] text-center text-[#b3b3b3] text-[14px]">
+            <p>&copy; 2024 Netflix, Inc. All Rights Reserved.</p>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
+
+
+
+
+
+
